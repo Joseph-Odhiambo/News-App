@@ -32,7 +32,7 @@ To get the code..
   ```
 2. Move to the folder and install requirements
   ```bash
-  cd News_Bulletins
+  cd News-App
   pip install -r requirements.txt
   ```
 3. Exporting Configurations
