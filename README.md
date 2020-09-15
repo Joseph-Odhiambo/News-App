@@ -1,49 +1,69 @@
-# Project Name
+# News_Bulletins
 
- News-Updates
----
+## Author
 
-## Description
----
-A python project that uses newsapi to give a user world news heaadline and sources
+[Joseph Odhiambo](https://github.com/Joseph-Odhiambo)
 
-## Created by
-Joseph Odhiambo
+# Description
+This is an application that will help people who want to get realtime news withouth having to watch TV for the news. The website will show news articles from several sources and news sources that a user can click to see morw news. The  application consumes news from the [News API](https://newsapi.org/)
 
----
+## Live Demo
 
-## Live demo
+Click [Link]https://news-2022.herokuapp.com/) to visit the site
 
-<//>
----
-## User Stories
-As a user I want to, 
-1. pick a random news source
-2. Takes me to the source page
-3. Be able to read whatever news headlines i would like
+## Screenshot
 
- ---
+<img src="" width="900px" height="440px">
 
-## SetUp Requirements
-To set up or to install you need:
- * python3.6
- * flask
- ---
-## Cloning
-To clone, on your terminal
-* $ git clone
-* $ cd News-Updates
----
-## Testing the Application
-To run the tests, on your terminal:
+## User Story
 
-  * $ python3.6 manage.py test
----
-## Run the Application
-To run the application, in your terminal:
+1. A user would see various news sources on the homepage of the application.
+2. A user would also be able to select a news source and see all news articles from the selected news source in the application.
+3. A user will be able to see the image, description and the time a news article was created from the News-Articles tab.
+4. A click on an article and read the full article on the source website.
 
-* $ chmod +x start.sh
-* $ ./start.sh
----
-## Licence
-MIT © 2020, Joseph Odhiambo
+
+## Development Installation
+To get the code..
+
+1. Cloning the repository:
+  ```bash
+  git clone https://github.com/Joseph-Odhiambo/News-App.git
+  ```
+2. Move to the folder and install requirements
+  ```bash
+  cd News_Bulletins
+  pip install -r requirements.txt
+  ```
+3. Exporting Configurations
+  ```bash
+  export API_KEY='{Enter your News Api Key}'
+  ```
+4. Running the application
+  ```bash
+  python3.8 manage.py server
+  ```
+5. Testing the application
+  ```bash
+  python3.8 manage.py test
+  ```
+Open the application on your browser `127.0.0.1:5000`.
+
+
+## Technology used
+
+* [Python3.8](https://www.python.org/)
+* [Flask](http://flask.pocoo.org/)
+* [Heroku](https://heroku.com)
+
+
+## Known Bugs
+* There are no known bugs currently but pull requests are allowed incase you spot a bug
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [josephkdo@gmail.com]
+
+## License
+* *MIT License:*
+* Copyright (c) 20120 **Joseph Odhiambo**
