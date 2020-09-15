@@ -9,11 +9,11 @@ This is an application that will help people who want to get realtime news witho
 
 ## Live Demo
 
-Click [Link]https://news-2022.herokuapp.com/) to visit the site
+Click [Link](https://news-2022.herokuapp.com/) to visit the site
 
 ## Screenshot
 
-<img src="" width="900px" height="440px">
+<img src="https://github.com/Joseph-Odhiambo/News-App/blob/master/app/static/images/Screenshot%20from%202020-09-15%2020-33-54.png?raw=true" width="900px" height="440px">
 
 ## User Story
 
